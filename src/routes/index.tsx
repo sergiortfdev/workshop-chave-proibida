@@ -631,6 +631,12 @@ function Index() {
               <p>
                 Foi justamente por encontrar essa dinâmica repetidamente nos atendimentos individuais e grupos terapêuticos que escolhi trazer o conto Barba Azul para esta experiência.
               </p>
+              <p>
+                Mais do que uma história, ele revela mecanismos presentes na vida de todas nós e ajuda a compreender como os predadores internos influenciam escolhas, relacionamentos e decisões impedindo sucesso, felicidade e propósito.
+              </p>
+              <p>
+                Nesta imersão, vou conduzir você através do Método AIA — Autoconhecimento, Inteligência Sistêmica e Alquimia Interior — para que possa reconhecer esses padrões com mais clareza e desenvolver uma nova forma de se relacionar consigo mesma, com suas escolhas e com sua própria verdade.
+              </p>
             </div>
           </motion.div>
 
