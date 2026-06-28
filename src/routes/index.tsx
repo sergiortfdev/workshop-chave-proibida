@@ -5,14 +5,17 @@ import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 import {
   AlertTriangle,
+  BookOpen,
   CalendarDays,
   Check,
   ChevronRight,
   Clock3,
   Eye,
   HeartHandshake,
+  Hourglass,
   KeyRound,
   MonitorPlay,
+  Pencil,
   ShieldCheck,
   Sparkles,
   Users,
@@ -109,22 +112,19 @@ const faqItems = [
   },
 ];
 
-const deliverables = [
-  {
-    title: "Autoconhecimento",
-    description: "Para reconhecer padrões repetidos, sabotadores e sinais internos antes que eles definam suas escolhas.",
-    icon: Eye,
-  },
-  {
-    title: "Inteligência Sistêmica",
-    description: "Para compreender dinâmicas invisíveis nos vínculos, nos relacionamentos e no modo como você se posiciona na vida.",
-    icon: Users,
-  },
-  {
-    title: "Alquimia Interior",
-    description: "Para transformar percepção em clareza, clareza em escolha e escolha em movimento real.",
-    icon: Sparkles,
-  },
+const journeyItems = [
+  "Reconhecer comportamentos e padrões que muitas vezes passam despercebidos no dia a dia",
+  "Compreender por que certas situações continuam se repetindo, mesmo quando você deseja que sejam diferentes",
+  "Identificar os sinais que costumam anteceder escolhas, relacionamentos e decisões que geram sofrimento",
+  "Entender como os sabotadores internos influenciam sua percepção, suas emoções e suas atitudes",
+  "Fortalecer sua capacidade de confiar mais em si mesma e naquilo que percebe",
+  "Desenvolver mais clareza para fazer escolhas alinhadas com quem você é ou quer se tornar",
+];
+
+const methodCards = [
+  { title: "Autoconhecimento", icon: BookOpen },
+  { title: "Inteligência Sistêmica", icon: Pencil },
+  { title: "Alquimia Interior", icon: Hourglass },
 ];
 
 function FadeInSection({
@@ -534,21 +534,58 @@ function Index() {
             light
           />
 
-          <div className="mt-14 grid gap-6 lg:grid-cols-3">
-            {deliverables.map(({ title, description, icon: Icon }) => (
+          <div className="mt-10 mx-auto max-w-4xl space-y-8">
+            <p className="text-xl text-center text-hero-foreground">Durante essa jornada, você vai:</p>
+            
+            <div className="grid gap-4 md:grid-cols-2">
+              {journeyItems.map((item, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="flex items-start gap-4 rounded-2xl border border-hero-border/40 bg-hero-panel/50 p-6 backdrop-blur-sm"
+                >
+                  <span className="mt-1 grid h-6 w-6 shrink-0 place-items-center text-accent-blue">
+                    <Check className="h-5 w-5" />
+                  </span>
+                  <p className="text-base leading-7 text-hero-muted">{item}</p>
+                </motion.div>
+              ))}
+            </div>
+            
+            <div className="space-y-6 pt-8 text-center text-lg leading-8 text-hero-muted">
+              <p>Mais do que ouvir uma história, você viverá uma experiência de reflexão, consciência e autopercepção que poderá trazer novos entendimentos sobre sua vida, seus relacionamentos e seu futuro.</p>
+              <p>Conquiste em poucas horas percepções que muitas mulheres levam anos para desenvolver sozinhas.</p>
+              <p className="pt-4 text-xl font-semibold text-hero-foreground">Tudo isso conduzido através do Método AIA, integrando:</p>
+            </div>
+          </div>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">
+            {methodCards.map(({ title, icon: Icon }) => (
               <motion.div
                 key={title}
                 whileHover={{ y: -8 }}
                 transition={{ duration: 0.2, ease: "easeOut" }}
-                className="rounded-[2rem] border border-hero-border/70 bg-hero-panel p-7 shadow-[0_25px_70px_-40px_var(--shadow-deep)]"
+                className="flex flex-col items-center justify-center gap-4 rounded-[2rem] border border-hero-border/70 bg-hero-panel p-8 text-center shadow-[0_25px_70px_-40px_var(--shadow-deep)]"
               >
-                <div className="grid h-14 w-14 place-items-center rounded-2xl bg-accent-blue/16 text-accent-blue">
-                  <Icon className="h-7 w-7" />
+                <div className="grid h-16 w-16 place-items-center rounded-full bg-accent-blue/16 text-accent-blue">
+                  <Icon className="h-8 w-8" />
                 </div>
-                <h3 className="mt-6 font-display text-3xl text-hero-foreground">{title}</h3>
-                <p className="mt-4 text-base leading-8 text-hero-muted">{description}</p>
+                <h3 className="font-display text-2xl text-hero-foreground">{title}</h3>
               </motion.div>
             ))}
+          </div>
+
+          <div className="mt-20 text-center">
+            <p className="mx-auto max-w-2xl text-xl leading-8 text-hero-muted mb-8">
+              Em apenas uma manhã de imersão, você vivenciará uma experiência profunda de reflexão, autopercepção e consciência.
+            </p>
+            <div className="inline-flex items-center justify-center gap-3 rounded-full border border-accent-blue/30 bg-accent-blue/10 px-8 py-4 text-xl font-medium text-accent-blue backdrop-blur-sm">
+              <CalendarDays className="h-6 w-6" />
+              Sábado, 11 de julho às 9h
+            </div>
           </div>
         </div>
       </FadeInSection>
