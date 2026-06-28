@@ -708,7 +708,7 @@ function Index() {
               </ul>
 
               <Button asChild variant="cta" size="xl" className="mt-14 w-full rounded-xl bg-[#10172A] text-sm font-bold text-amber-100 hover:bg-[#10172A]/90 md:text-base">
-                <a href="#">QUERO GARANTIR MEU INGRESSO</a>
+                <a href="https://pay.hotmart.com/N106524344D" target="_blank" rel="noopener noreferrer">QUERO GARANTIR MEU INGRESSO</a>
               </Button>
             </motion.article>
 
@@ -724,8 +724,11 @@ function Index() {
                 </div>
                 <ul className="mt-12 space-y-5">
                   {[
-                    "Todos os benefícios anteriores",
-                    "Acesso padronizado ao workshop",
+                    "Imersão ao vivo pelo Zoom",
+                    "Vivência terapêutica em grupo",
+                    "Reflexões e exercícios de autopercepção",
+                    "Grupo VIP no WhatsApp exclusivo para participantes",
+                    "Garantia incondicional de 7 dias",
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-start gap-4 text-base font-medium leading-7 text-slate-400">
                       <span className="mt-1.5 grid h-[18px] w-[18px] shrink-0 place-items-center rounded-full border-2 border-slate-300 text-slate-300">
