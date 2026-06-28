@@ -265,7 +265,7 @@ export const Route = createFileRoute("/")({
           },
           offers: {
             '@type': 'Offer',
-            price: '47.00',
+            price: '37.00',
             priceCurrency: 'BRL',
             availability: 'https://schema.org/LimitedAvailability',
             url: '/',
@@ -284,7 +284,7 @@ function Index() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-x-6 gap-y-3 px-4 text-center md:flex-row">
           <div className="flex items-center gap-3 animate-pulse">
             <AlertTriangle className="h-5 w-5 shrink-0" />
-            <span className="text-base font-bold md:text-lg">Garanta seu ingresso por apenas R$ 47 | 95% das vagas preenchidas</span>
+            <span className="text-base font-bold md:text-lg">Garanta seu ingresso por apenas R$ 37 | 95% das vagas preenchidas</span>
           </div>
           <Button asChild size="sm" className="bg-background text-foreground hover:bg-background/90 font-bold px-6 shadow-sm">
             <a href="#oferta">Garantir com desconto</a>
@@ -655,17 +655,19 @@ function Index() {
 
       <FadeInSection id="oferta" className="bg-slate-50 border-y border-border/50">
         <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-28">
-          <SectionHeader
-            eyebrow="Oferta especial"
-            title="Escolha entrar agora, antes da virada do lote"
-            description="Um encontro profundo, ao vivo, conduzido com método, clareza e espaço para aplicação prática."
-            balance={false}
-          />
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="font-display text-4xl font-bold leading-tight text-balance text-foreground md:text-5xl lg:text-6xl">
+              Sinta o poder da terapia em grupo através da imersão no conto Barba Azul
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-muted-foreground md:text-xl">
+              5 horas de vivência prática para compreender padrões, reconhecer sabotadores internos e desenvolver uma nova forma de se relacionar consigo mesma.
+            </p>
+          </div>
 
-          <div className="mt-6 flex justify-center">
-            <div className="inline-flex animate-pulse items-center gap-3 rounded-full border border-highlight/70 bg-highlight px-5 py-3 text-sm font-semibold text-highlight-foreground shadow-[0_16px_35px_-20px_var(--shadow-soft)]">
-              <Clock3 className="h-4 w-4 animate-spin" />
-              O valor promocional do 1º lote está perto do encerramento
+          <div className="mt-10 flex justify-center">
+            <div className="inline-flex animate-pulse items-center gap-3 rounded-2xl border border-highlight/70 bg-highlight px-6 py-4 text-center text-sm font-semibold text-highlight-foreground shadow-[0_16px_35px_-20px_var(--shadow-soft)] md:text-base max-w-3xl text-balance">
+              <Clock3 className="h-6 w-6 shrink-0" />
+              <span>Garanta sua vaga AGORA para vivenciar, na prática, o impacto de um dos contos mais transformadores de Mulheres que Correm com os Lobos</span>
             </div>
           </div>
 
@@ -682,10 +684,10 @@ function Index() {
               </div>
               
               <div className="flex flex-col items-center text-center">
-                <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-500">1º LOTE</p>
-                <span className="mt-2 text-sm font-medium text-slate-400 line-through">De R$ 197,00</span>
-                <span className="mt-1 font-display text-[4rem] font-bold leading-none text-[#10172A] md:text-7xl">R$ 47,00</span>
-                <span className="mt-3 text-sm font-bold text-slate-500">ou 6x de R$ 8,82</span>
+                <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-500">Lote 0 - Membros AIA</p>
+                <span className="mt-2 text-sm font-medium text-slate-400 line-through">De R$ 77,00</span>
+                <span className="mt-1 font-display text-[4rem] font-bold leading-none text-[#10172A] md:text-7xl">R$ 37,00</span>
+                <span className="mt-3 text-sm font-bold text-slate-500">ou 5x de R$ 8,19</span>
               </div>
               
               <ul className="mt-12 space-y-5">
@@ -718,7 +720,7 @@ function Index() {
               <div className="pointer-events-none opacity-25 grayscale filter">
                 <div className="flex flex-col items-center text-center">
                   <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-400">2º LOTE</p>
-                  <span className="mt-8 font-display text-[3.5rem] font-bold leading-none text-slate-300 md:text-6xl">R$ 197,00</span>
+                  <span className="mt-8 font-display text-[3.5rem] font-bold leading-none text-slate-300 md:text-6xl">R$ 77,00</span>
                 </div>
                 <ul className="mt-12 space-y-5">
                   {[
@@ -772,7 +774,7 @@ function Index() {
                     </AccordionTrigger>
                     <AccordionContent className="pb-6">
                       <div className="rounded-[1.5rem] border border-hero-border/70 bg-background/6 p-6">
-                        <p className="font-display text-4xl text-warm md:text-5xl">{firstWord}</p>
+                        <p className="font-display text-3xl text-warm md:text-4xl">{firstWord}</p>
                         {rest ? <p className="mt-4 text-base leading-8 text-hero-muted md:text-lg">{rest}</p> : null}
                       </div>
                     </AccordionContent>
