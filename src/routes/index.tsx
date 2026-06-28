@@ -407,7 +407,6 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-24">
           {/* Título centralizado */}
           <div className="mx-auto max-w-4xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-accent-blue">A chave proibida</p>
             <h2 className="mt-4 font-display text-3xl leading-tight text-balance text-foreground md:text-5xl">
               Existe uma revelação no conto Barba Azul que toda mulher precisa descobrir...
             </h2>
@@ -485,9 +484,7 @@ function Index() {
       <FadeInSection className="section-tinted overflow-hidden">
         <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-28">
           <SectionHeader
-            eyebrow="Para quem é"
             title="Essa imersão é para mulheres que..."
-            description="Se você sente que percebe muito, mas ainda assim se vê repetindo padrões, esta experiência foi desenhada para atravessar exatamente esse ponto."
           />
 
           <motion.div
@@ -532,7 +529,6 @@ function Index() {
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-linear-to-l from-accent-blue/6 to-transparent" />
         <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-28">
           <SectionHeader
-            eyebrow="Método AIA"
             title="O que você vai vivenciar nesta imersão?"
             description="Ao longo do Workshop, você será conduzida por uma experiência vivencial baseada em um dos contos mais importantes do livro Mulheres que Correm com os Lobos: Barba Azul"
             light
@@ -585,7 +581,6 @@ function Index() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
             className="mt-8 flex flex-col justify-center lg:mt-0"
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-accent-blue">Facilitadora</p>
             <h2 className="mt-4 font-display text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-[3.25rem]">
               Olá! Sou Léia Dornelas e serei sua facilitadora nesta imersão.
             </h2>
