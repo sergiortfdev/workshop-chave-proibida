@@ -750,6 +750,13 @@ function Index() {
               </div>
             </motion.article>
           </div>
+
+          <div className="mt-12 flex justify-center">
+            <div className="flex w-full max-w-4xl items-center justify-center gap-3 rounded-2xl border border-red-200 bg-[#fdf5f5] px-6 py-4 text-center text-base font-medium text-red-800 md:text-lg">
+              <AlertTriangle className="h-6 w-6 shrink-0 text-red-600" />
+              <span><strong className="text-red-700">Atenção:</strong> Na virada do lote, o preço para participar da imersão vai aumentar</span>
+            </div>
+          </div>
         </div>
       </FadeInSection>
 
