@@ -26,7 +26,7 @@ const leiaPortrait = { url: "/assets/LeiaLendoLivro.png" };
 const plateiaAsset = { url: "/assets/ImagemPlateiaEventoLeia.png" };
 const storyAsset = { url: "/assets/MulherSegurandoChaveSangrando.png" };
 const heroAsset = { url: "/assets/ImagemPrincipalComeco.png" };
-const leiaAsset2 = { url: "/assets/ImagemLeia.png" };
+const leiaLivro = { url: "/assets/ImagemLeiaLivro.png" };
 const contoBarbaAzul = { url: "/assets/ImagemContoBarbaAzul.png" };
 const imagem2Conto = { url: "/assets/Imagem2Conto.png" };
 const novasPossibilidades = { url: "/assets/NovasPossibilidades.png" };
@@ -280,7 +280,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main className="bg-background text-foreground">
-      <div className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-highlight py-3 text-highlight-foreground shadow-[0_10px_30px_-18px_var(--shadow-deep)]">
+      <div className="fixed inset-x-0 top-0 z-50 border-b border-red-700/60 bg-red-600 py-3 text-white shadow-[0_10px_30px_-18px_var(--shadow-deep)]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-x-6 gap-y-3 px-4 text-center md:flex-row">
           <div className="flex items-center gap-3 animate-pulse">
             <AlertTriangle className="h-5 w-5 shrink-0" />
@@ -565,21 +565,16 @@ function Index() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mx-auto grid aspect-[4/5] w-full max-w-[500px] grid-cols-2 grid-rows-2 gap-3 md:gap-4 lg:mx-0 lg:max-w-none lg:h-full lg:aspect-auto"
+            className="mx-auto flex w-full max-w-[500px] flex-col gap-4 lg:mx-0 lg:max-w-none lg:justify-center"
           >
-            {/* Esquerda: Foto Principal (Alta, 2 linhas) */}
-            <div className="col-span-1 row-span-2 overflow-hidden rounded-xl shadow-md md:rounded-2xl">
-              <img src={leiaPortrait.url} alt="Léia Dornelas, facilitadora do workshop" className="h-full w-full object-cover" loading="lazy" />
-            </div>
-
-            {/* Direita Superior: Foto do Grupo */}
-            <div className="col-span-1 row-span-1 overflow-hidden rounded-xl shadow-md md:rounded-2xl">
+            {/* Imagem do Grupo */}
+            <div className="w-full overflow-hidden rounded-xl shadow-md md:rounded-2xl">
               <img src={plateiaAsset.url} alt="Léia Dornelas com plateia em roda" className="h-full w-full object-cover" loading="lazy" />
             </div>
 
-            {/* Direita Inferior: Segunda foto da Léia */}
-            <div className="col-span-1 row-span-1 overflow-hidden rounded-xl shadow-md md:rounded-2xl">
-              <img src={leiaAsset2.url} alt="Léia Dornelas" className="h-full w-full object-cover object-top" loading="lazy" />
+            {/* Imagem Léia Livro */}
+            <div className="w-full overflow-hidden rounded-xl shadow-md md:rounded-2xl">
+              <img src={leiaLivro.url} alt="Léia Dornelas segurando o livro" className="h-full w-full object-cover" loading="lazy" />
             </div>
           </motion.div>
 
