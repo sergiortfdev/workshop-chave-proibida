@@ -257,7 +257,7 @@ export const Route = createFileRoute("/")({
             'Imersão online e ao vivo conduzida por Léia Dornelas para reconhecer sabotadores internos, fortalecer a percepção e transformar escolhas.',
           eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
           eventStatus: 'https://schema.org/EventScheduled',
-          startDate: '2026-07-11T09:00:00-03:00',
+          startDate: '2026-07-18T09:00:00-03:00',
           image: [bannerWorkshop.url, plateiaAsset.url],
           performer: {
             '@type': 'Person',
@@ -359,7 +359,7 @@ function Index() {
             >
               <span className="inline-flex items-center gap-2">
                 <CalendarDays className="h-4 w-4 text-accent-blue" />
-                11 de julho às 9h
+                18 de julho às 9h
               </span>
               <span className="hidden text-hero-border md:inline">|</span>
               <span className="inline-flex items-center gap-2">
@@ -584,7 +584,7 @@ function Index() {
             </p>
             <div className="inline-flex items-center justify-center gap-3 rounded-full border border-accent-blue/30 bg-accent-blue/10 px-8 py-4 text-xl font-medium text-accent-blue backdrop-blur-sm">
               <CalendarDays className="h-6 w-6" />
-              Sábado, 11 de julho às 9h
+              Sábado, 18 de julho às 9h
             </div>
           </div>
         </div>
