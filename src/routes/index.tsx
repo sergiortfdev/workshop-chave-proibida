@@ -657,7 +657,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-28">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="font-display text-4xl font-bold leading-tight text-balance text-foreground md:text-5xl lg:text-6xl">
-              Sinta o poder da terapia em grupo através da imersão no conto Barba Azul
+              Sinta o poder da terapia em grupo através da imersão no conto <span className="text-blue-500">Barba Azul</span>
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground md:text-xl">
               5 horas de vivência prática para compreender padrões, reconhecer sabotadores internos e desenvolver uma nova forma de se relacionar consigo mesma.
@@ -719,7 +719,7 @@ function Index() {
             >
               <div className="pointer-events-none opacity-25 grayscale filter">
                 <div className="flex flex-col items-center text-center">
-                  <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-400">2º LOTE</p>
+                  <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-400">Próximo Lote</p>
                   <span className="mt-8 font-display text-[3.5rem] font-bold leading-none text-slate-300 md:text-6xl">R$ 77,00</span>
                 </div>
                 <ul className="mt-12 space-y-5">
@@ -816,14 +816,6 @@ function Index() {
             {/* Instagram */}
             <a href="https://www.instagram.com/leiadornelas/" target="_blank" rel="noopener noreferrer" className="flex h-12 w-12 items-center justify-center rounded-full bg-foreground text-[#f6f3eb] transition-transform hover:scale-110">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-            </a>
-            {/* Facebook */}
-            <a href="https://www.facebook.com/TerapeutaLeiaDornelas?" target="_blank" rel="noopener noreferrer" className="flex h-12 w-12 items-center justify-center rounded-full bg-foreground text-[#f6f3eb] transition-transform hover:scale-110">
-              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" className="h-5 w-5"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>
-            </a>
-            {/* Tiktok */}
-            <a href="https://www.tiktok.com/@leiadornellas" target="_blank" rel="noopener noreferrer" className="flex h-12 w-12 items-center justify-center rounded-full bg-foreground text-[#f6f3eb] transition-transform hover:scale-110">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93v7.2c0 1.63-.67 3.23-1.89 4.34-1.22 1.11-2.91 1.7-4.63 1.58-1.72-.11-3.32-.88-4.47-2.11-1.15-1.23-1.73-2.92-1.63-4.63.1-1.71.87-3.32 2.1-4.47 1.23-1.15 2.91-1.73 4.62-1.63v4.06c-.84-.04-1.67.24-2.31.81-.64.57-1 1.39-.98 2.23.02.84.4 1.64 1.05 2.2.65.55 1.5.83 2.36.76.85-.07 1.65-.45 2.22-1.1.56-.64.84-1.48.78-2.34V0h4.08c-.01.01-.01.01-.02.02z"/></svg>
             </a>
           </div>
 
