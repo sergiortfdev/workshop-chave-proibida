@@ -327,7 +327,7 @@ function Index() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.08, ease: "easeOut" }}
-              className="mt-4 max-w-4xl font-display text-2xl leading-tight whitespace-nowrap text-hero-foreground/90 md:text-3xl lg:text-4xl"
+              className="mt-4 max-w-4xl font-display text-xl leading-tight whitespace-nowrap text-hero-foreground/90 md:text-2xl lg:text-3xl"
             >
               SEU MAIOR RIVAL ESTÁ NA SUA MENTE.
             </motion.h2>
