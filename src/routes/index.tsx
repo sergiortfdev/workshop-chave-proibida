@@ -34,6 +34,7 @@ const contoBarbaAzul = { url: "/assets/ImagemContoBarbaAzul.png" };
 const imagem2Conto = { url: "/assets/Imagem2Conto.png" };
 const novasPossibilidades = { url: "/assets/NovasPossibilidades.png" };
 const fechaduraAsset = { url: "/assets/PNGFechaduraAntiga.png" };
+const logoBarbaAzul = { url: "/assets/LogoBarbaAzul.png" };
 
 const audienceItems = [
   "Duvidam da própria percepção e costumam ignorar sinais importantes",
@@ -326,7 +327,7 @@ function Index() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.08, ease: "easeOut" }}
-              className="mt-4 max-w-4xl font-display text-2xl leading-tight text-balance text-hero-foreground/90 md:text-3xl lg:text-4xl"
+              className="mt-4 max-w-4xl font-display text-2xl leading-tight whitespace-nowrap text-hero-foreground/90 md:text-3xl lg:text-4xl"
             >
               SEU MAIOR RIVAL ESTÁ NA SUA MENTE.
             </motion.h2>
@@ -533,6 +534,19 @@ function Index() {
           </motion.div>
         </div>
       </FadeInSection>
+
+      {/* Floating Logo between sections */}
+      <div className="pointer-events-none relative z-10 -my-10 flex justify-center md:-my-16">
+        <motion.img
+          src={logoBarbaAzul.url}
+          alt="Logo Barba Azul 3D"
+          initial={{ rotate: -15, scale: 0.8, opacity: 0 }}
+          whileInView={{ rotate: 5, scale: 1, opacity: 0.9 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+          className="h-32 w-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)] md:h-48"
+        />
+      </div>
 
       <FadeInSection className="section-dark relative overflow-hidden text-hero-foreground">
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-linear-to-l from-accent-blue/6 to-transparent" />
