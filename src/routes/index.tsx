@@ -284,7 +284,7 @@ function Index() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-x-6 gap-y-3 px-4 text-center md:flex-row">
           <div className="flex items-center gap-3 animate-pulse">
             <AlertTriangle className="h-5 w-5 shrink-0" />
-            <span className="text-base font-bold md:text-lg">Garanta seu ingresso por apenas R$ 37 | 95% das vagas preenchidas</span>
+            <span className="text-base font-bold md:text-lg">Garanta seu ingresso por apenas R$ 37</span>
           </div>
           <Button asChild size="sm" className="bg-background text-foreground hover:bg-background/90 font-bold px-6 shadow-sm">
             <a href="#oferta">Garantir com desconto</a>
@@ -319,8 +319,17 @@ function Index() {
               transition={{ duration: 0.8, delay: 0.05, ease: "easeOut" }}
               className="mt-7 max-w-4xl font-display text-4xl leading-[1.02] text-balance md:text-6xl lg:text-7xl"
             >
-              SEU MAIOR RIVAL ESTÁ NA SUA MENTE.
+              Workshop Barba <span className="text-accent-blue">Azul</span>
             </motion.h1>
+
+            <motion.h2
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.08, ease: "easeOut" }}
+              className="mt-4 max-w-4xl font-display text-2xl leading-tight text-balance text-hero-foreground/90 md:text-3xl lg:text-4xl"
+            >
+              SEU MAIOR RIVAL ESTÁ NA SUA MENTE.
+            </motion.h2>
 
             <motion.p
               initial={{ opacity: 0, y: 24 }}
