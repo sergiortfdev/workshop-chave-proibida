@@ -614,8 +614,9 @@ function Index() {
       </FadeInSection>
 
       <FadeInSection className="section-light">
-        <div className="mx-auto grid max-w-7xl gap-12 px-4 py-20 md:px-8 lg:grid-cols-2 lg:items-start lg:gap-10 lg:py-28">
+        <div className="mx-auto grid max-w-7xl gap-12 px-4 py-20 md:px-8 lg:grid-cols-2 lg:items-stretch lg:gap-10 lg:py-28">
           
+          <div className="h-full">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -633,6 +634,7 @@ function Index() {
               <img src={leiaLivro.url} alt="Léia Dornelas segurando o livro" className="h-full w-full object-cover" loading="lazy" />
             </div>
           </motion.div>
+          </div>
 
           <motion.div
             initial={{ opacity: 0, x: 40 }}
