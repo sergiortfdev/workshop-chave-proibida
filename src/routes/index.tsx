@@ -178,30 +178,30 @@ function TestimonialsSection() {
   ]);
 
   const testimonials = [
-    { name: "Ilda Constantin", text: `Fui acolhida com muito carinho por uma profissional que há anos cuida das nossas dores. Super indico a Léia...não só na condução do Taro, mas também nas outras especialidades como Medicina Chinesa, TRE e outras tantas habilidades que ela desenvolveu. Muito estudiosa...sempre trazendo novidades para nós...só gratidão pela Léia em minha vida.` },
+    { name: "Ilda Constantin", text: `Fui acolhida com muito carinho por uma profissional que há anos cuida das nossas dores. Super indico a Léia...não só na condução do Taro, mas também nas outras especialidades como Medicina Chinesa, TRE e outras tantas habilidades que ela desenvolveu. Muito estudiosa...sempre trazendo novidades para nós...só gratidão pela Léia em minha vida.`, image: "/assets/Ilda.png" },
     { name: "Nubia Martins", text: `Minha experiência foi ótima! Estava intoxicada com alterações no estômago, fígado, pâncreas e intestinos. Passei pelo tratamento com a Léia, MTC, TRE, homeopatia Quântica... Foi uma etapa muito importante para minha saúde!` },
     { name: "Elza Carrijo", text: `Gente linda...bom dia, boa tarde e/ou boa noite! Se amem e não se permitam deixar de ir na Dra. Léia Dornelas! Ela é tudo de bom! Fiz TRE e, logo após, brevíssimo tratamento com acupuntura e chás caseiros que fizeram a diferença! As experiências por mim vividas são indescritíveis! Me sinto saudável, plena, divina! Obrigada querida Léia Dornelas! Gratidão! 💜` },
     { name: "Viviane Batista", text: `Minha experiência foi fantástica, a Léia é muito profissional e me senti segura com tanto conhecimento, além do acompanhamento que é muito amoroso, eu entrei angustiada e saí em paz, cheia de certezas! Muita gratidão Léia por existir 🌻` },
-    { name: "Lais Latorraca", text: `A Léia é um anjo na terra. Super atenciosa em todos os seus atendimentos. Eu comecei com a constelação familiar, fiz o meu mapa astral, depois a revolução solar no meu aniversário e não vamos parar por ai. As terapias com a Léia me ajudaram a entender o porque de certos padrões em minha vida e agora a Léia esta me ajudando a encontrar meu próprio caminho. Recomendo a Léia com toda confiança em seu trabalho 🙌🏻❤️` },
-    { name: "Carolina Orejuela", text: `Tive uma experiência maravilhosa com o Instituto AIA e Léia Dornelas 💫. Fiz atendimentos online desde a Colômbia, como o mapa natal e também a TRE, e só tenho a agradecer. O cuidado, a sensibilidade e a clareza da Léia fazem toda a diferença. Me senti muito acolhida e cada sessão trouxe insights profundos e transformadores. Recomendo de coração a todos que buscam autoconhecimento e bem-estar.` },
+    { name: "Lais Latorraca", text: `A Léia é um anjo na terra. Super atenciosa em todos os seus atendimentos. Eu comecei com a constelação familiar, fiz o meu mapa astral, depois a revolução solar no meu aniversário e não vamos parar por ai. As terapias com a Léia me ajudaram a entender o porque de certos padrões em minha vida e agora a Léia esta me ajudando a encontrar meu próprio caminho. Recomendo a Léia com toda confiança em seu trabalho 🙌🏻❤️`, image: "/assets/LaisLatorraca.png" },
+    { name: "Carolina Orejuela", text: `Tive uma experiência maravilhosa com o Instituto AIA e Léia Dornelas 💫. Fiz atendimentos online desde a Colômbia, como o mapa natal e também a TRE, e só tenho a agradecer. O cuidado, a sensibilidade e a clareza da Léia fazem toda a diferença. Me senti muito acolhida e cada sessão trouxe insights profundos e transformadores. Recomendo de coração a todos que buscam autoconhecimento e bem-estar.`, image: "/assets/CarolinaOrejuela.png" },
     { name: "Gabriela Ferraz", text: `Experiência maravilhosa. Desde o acolhimento à ambientação, me senti sendo preparada para entrar em processos pessoais a cada passo. Léia foi extremamente explicativa e carinhosa, um convite mesmo para olhar com amor às questões da alma.` },
-    { name: "Luciara Cristina Borges Da Silva", text: `Procurei Léia Dornelas com muita dor no pulso, tendinite em tratamento há quase 2 meses sem melhoras significativas, mas a acupuntura e suas orientações fizeram total diferença na minha recuperação!\nEste ano tive a oportunidade de participar de sua mentoria "O Código da Nave" e foi fantástico! Foi meu primeiro contato com meu Mapa Natal e tive outra visão sobre a vida e minha Missão!\nGratidão, Léia!❤️❤️❤️` },
+    { name: "Luciara Cristina Borges Da Silva", text: `Procurei Léia Dornelas com muita dor no pulso, tendinite em tratamento há quase 2 meses sem melhoras significativas, mas a acupuntura e suas orientações fizeram total diferença na minha recuperação!\nEste ano tive a oportunidade de participar de sua mentoria "O Código da Nave" e foi fantástico! Foi meu primeiro contato com meu Mapa Natal e tive outra visão sobre a vida e minha Missão!\nGratidão, Léia!❤️❤️❤️`, image: "/assets/LuciaraCristina.png" },
     { name: "Eliane Ribeiro", text: `A leitura do tarô astrológico com a Léia deu muita clareza quando ao momento em que estou vivenciando. Ela em seus atendimentos supera as expectativas e entrega com muito amor, qualidade e sabedoria aquilo que se propõe a fazer.\nAgradeço de coração pelo direcionamento❤️🙌🏻🌹` },
     { name: "Portal Rede Araxá Em Ação", text: `Experiência única de me conectar comigo mesma e conhecer melhor meus desafios para poder vencê-los.\nFui presenteada com muitas curas.` },
-    { name: "Sedese Uberlândia- Odete Dan", text: `Experiência maravilhosa. Léia desenvolve seu trabalho com excelência e os resultados que recebi foram maravilhosos. Super indico.` },
+    { name: "Sedese Uberlândia- Odete Dan", text: `Experiência maravilhosa. Léia desenvolve seu trabalho com excelência e os resultados que recebi foram maravilhosos. Super indico.`, image: "/assets/OdeteDan.png" },
     { name: "Gi Barbosa", text: `Fiz um tratamento longo e maravilhoso com a Leia. Foi uma experiência muito boa, com autoconhecimento. Me ajudou muito a entender quem sou e a melhorar a forma de viver todos os dias!` },
-    { name: "Solange Duarte Da Costa Nogueira", text: `Conheço o trabalho da Léia desde antes da pandemia,penso que sou das primeiras pacientes dela, no período da pandemia não entrei em uma crise depressiva graças à seu trabalho, com ela já consegui emagrecer e o mais importante caso foi qdo extraí um dente molar e o dentista afetou meu nervoso trigêmeo o que me causou grandes dores e através de sua experiência e conhecimento hoje não sinto mais dor ,somente uma sensibilidade no local e sabemos que isso é muito raro, enfim,após tratar-me com Léia sou outr pessoa!` },
-    { name: "Beth Perez", text: `Excelente profissional, eu indico. Já fiz várias terapias, agora vou fazer meu mapa astral.` },
-    { name: "Vaneide Correa Dornellas", text: `Atendimento excepcional. O local de atendimento é lindo, acolhedor e aconchegante junto à natureza. Lugar cheiroso e limpo. E a Leia é sorridente, alegre e super comprometida com o tratamento individualizado. Super recomendo.` },
-    { name: "Julieta D'augero", text: `Minha experiência foi maravilhosa. Adorei às sessões com Leia. Ela me ajudo muito a melhorar muitos aspectos da minha vida 🩵 Altamente responsável. Eu recomendo a ela ✨` },
-    { name: "Lara Costa Guerra", text: `É uma profissional de excelência ela faz um trabalho que cura sua alma e coloca significado em sua vida,tudo melhora pois você muda sua frequência, para uma mais alta e harmonica! Super indico!` },
-    { name: "Claudia Rosa Manso", text: `Excelente profissional! Sempre muito assertiva no diagnóstico e na condução do tratamento.` },
-    { name: "Graziela De Paula Silva", text: `Através da escuta, condução e orientações de Léia Dornelas encontrei respostas, prumo e direção. GRATIDÃO Léia por tudo, por tanto e por sempre... ABRAÇOS` },
-    { name: "Luciana Muniz", text: `Uma experiência transformadora. Apoio incrível para a jornada de autoconhecimento, com muito profissionalismo e sabedoria! Gratidão, Leia` },
+    { name: "Solange Duarte Da Costa Nogueira", text: `Conheço o trabalho da Léia desde antes da pandemia,penso que sou das primeiras pacientes dela, no período da pandemia não entrei em uma crise depressiva graças à seu trabalho, com ela já consegui emagrecer e o mais importante caso foi qdo extraí um dente molar e o dentista afetou meu nervoso trigêmeo o que me causou grandes dores e através de sua experiência e conhecimento hoje não sinto mais dor ,somente uma sensibilidade no local e sabemos que isso é muito raro, enfim,após tratar-me com Léia sou outr pessoa!`, image: "/assets/SolangeDuarte.png" },
+    { name: "Beth Perez", text: `Excelente profissional, eu indico. Já fiz várias terapias, agora vou fazer meu mapa astral.`, image: "/assets/BethPerez.png" },
+    { name: "Vaneide Correa Dornellas", text: `Atendimento excepcional. O local de atendimento é lindo, acolhedor e aconchegante junto à natureza. Lugar cheiroso e limpo. E a Leia é sorridente, alegre e super comprometida com o tratamento individualizado. Super recomendo.`, image: "/assets/VanideCorrea.png" },
+    { name: "Julieta D'augero", text: `Minha experiência foi maravilhosa. Adorei às sessões com Leia. Ela me ajudo muito a melhorar muitos aspectos da minha vida 🩵 Altamente responsável. Eu recomendo a ela ✨`, image: "/assets/JulietaD'Augero.png" },
+    { name: "Lara Costa Guerra", text: `É uma profissional de excelência ela faz um trabalho que cura sua alma e coloca significado em sua vida,tudo melhora pois você muda sua frequência, para uma mais alta e harmonica! Super indico!`, image: "/assets/LaraCosta.png" },
+    { name: "Claudia Rosa Manso", text: `Excelente profissional! Sempre muito assertiva no diagnóstico e na condução do tratamento.`, image: "/assets/ClaudiaRosa.png" },
+    { name: "Graziela De Paula Silva", text: `Através da escuta, condução e orientações de Léia Dornelas encontrei respostas, prumo e direção. GRATIDÃO Léia por tudo, por tanto e por sempre... ABRAÇOS`, image: "/assets/Graziela.png" },
+    { name: "Luciana Muniz", text: `Uma experiência transformadora. Apoio incrível para a jornada de autoconhecimento, com muito profissionalismo e sabedoria! Gratidão, Leia`, image: "/assets/LucianaMuniz.png" },
     { name: "Reníria Af", text: `Sempre experiências transformadoras, uma profissional muito capacitada e com muita empatia. Exala conhecimento e cura 🙏💖` },
-    { name: "Valdevina Rodrigues", text: `Excelente profissional, trabalha com muita seriedade, comprometida, dedicada, muito competente, recomendo demais 😍💖🙏` },
+    { name: "Valdevina Rodrigues", text: `Excelente profissional, trabalha com muita seriedade, comprometida, dedicada, muito competente, recomendo demais 😍💖🙏`, image: "/assets/ValdevinaRodrigues.png" },
     { name: "Sonia Barbosa", text: `Eu recomendo. Foi muito bom para mim e minha família. Perfeito o acolhimento e os tratamentos.` },
-    { name: "Clori Fernandes Maciel", text: `Valdiléia me tratou com muito amor e profissionalismo. Tenho recomendado para muitas pessoas.` },
+    { name: "Clori Fernandes Maciel", text: `Valdiléia me tratou com muito amor e profissionalismo. Tenho recomendado para muitas pessoas.`, image: "/assets/CloriFernandes.png" },
   ];
 
   return (
@@ -233,9 +233,15 @@ function TestimonialsSection() {
                    </p>
                  </div>
                  <div className="mt-8 flex items-center gap-4">
-                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-hero text-hero-foreground font-display text-xl">
-                     {t.name.charAt(0)}
-                   </div>
+                   {t.image ? (
+                     <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border/50">
+                       <img src={t.image} alt={`Foto de ${t.name}`} className="h-full w-full object-cover" loading="lazy" />
+                     </div>
+                   ) : (
+                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-hero text-hero-foreground font-display text-xl">
+                       {t.name.charAt(0)}
+                     </div>
+                   )}
                    <p className="font-bold text-foreground text-lg">{t.name}</p>
                  </div>
                </div>
