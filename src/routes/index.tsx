@@ -621,7 +621,7 @@ function Index() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mx-auto flex w-full max-w-[500px] flex-col gap-4 lg:mx-0 lg:max-w-none lg:justify-center"
+            className="mx-auto flex w-full max-w-[500px] flex-col gap-8 lg:mx-0 lg:max-w-none lg:justify-between"
           >
             {/* Imagem do Grupo */}
             <div className="w-full overflow-hidden rounded-xl shadow-md md:rounded-2xl">
