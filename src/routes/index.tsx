@@ -280,7 +280,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="bg-background text-foreground overflow-x-hidden">
+    <main className="bg-background text-foreground">
       <div className="fixed inset-x-0 top-0 z-50 border-b border-red-700/60 bg-red-600 py-3 text-white shadow-[0_10px_30px_-18px_var(--shadow-deep)]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-x-6 gap-y-3 px-4 text-center md:flex-row">
           <div className="flex items-center gap-3 animate-pulse">
