@@ -270,13 +270,13 @@ function TestimonialsSection() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Workshop A Chave Proibida | Léia Dornelas" },
+      { title: "Workshop: Barba Azul | Léia Dornelas" },
       {
         name: "description",
         content:
-          "Participe do Workshop A Chave Proibida e aprenda a reconhecer sabotadores internos, sinais de alerta e padrões emocionais que comprometem suas escolhas.",
+          "Participe do Workshop: Barba Azul e aprenda a reconhecer sabotadores internos, sinais de alerta e padrões emocionais que comprometem suas escolhas.",
       },
-      { property: "og:title", content: "Workshop A Chave Proibida | Léia Dornelas" },
+      { property: "og:title", content: "Workshop: Barba Azul | Léia Dornelas" },
       {
         property: "og:description",
         content:
@@ -286,7 +286,7 @@ export const Route = createFileRoute("/")({
       { property: "og:url", content: "/" },
       { property: "og:image", content: bannerWorkshop.url },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Workshop A Chave Proibida | Léia Dornelas" },
+      { name: "twitter:title", content: "Workshop: Barba Azul | Léia Dornelas" },
       {
         name: "twitter:description",
         content:
@@ -301,7 +301,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Event',
-          name: 'Workshop: A Chave Proibida',
+          name: 'Workshop: Barba Azul',
           description:
             'Imersão online e ao vivo conduzida por Léia Dornelas para reconhecer sabotadores internos, fortalecer a percepção e transformar escolhas.',
           eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
