@@ -540,8 +540,8 @@ function Index() {
         <motion.img
           src={logoBarbaAzul.url}
           alt="Logo Barba Azul 3D"
-          initial={{ rotate: -15, scale: 0.8, opacity: 0 }}
-          whileInView={{ rotate: 5, scale: 1, opacity: 0.9 }}
+          initial={{ rotate: 0, scale: 0.8, opacity: 0 }}
+          whileInView={{ rotate: 0, scale: 1, opacity: 0.9 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
           className="h-32 w-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)] md:h-48"
@@ -614,14 +614,14 @@ function Index() {
       </FadeInSection>
 
       <FadeInSection className="section-light">
-        <div className="mx-auto grid max-w-7xl gap-12 px-4 py-20 md:px-8 lg:grid-cols-2 lg:items-stretch lg:gap-10 lg:py-28">
+        <div className="mx-auto grid max-w-7xl gap-12 px-4 py-20 md:px-8 lg:grid-cols-2 lg:items-start lg:gap-10 lg:py-28">
           
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mx-auto flex w-full max-w-[500px] flex-col gap-8 lg:mx-0 lg:max-w-none lg:justify-between"
+            className="mx-auto flex w-full max-w-[500px] flex-col gap-6 lg:sticky lg:top-32 lg:mx-0 lg:max-w-none"
           >
             {/* Imagem do Grupo */}
             <div className="w-full overflow-hidden rounded-xl shadow-md md:rounded-2xl">
