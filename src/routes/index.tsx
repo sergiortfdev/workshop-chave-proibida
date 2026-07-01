@@ -101,7 +101,7 @@ const faqItems = [
   },
   {
     question: "Existe garantia?",
-    answer: "SIM! Você tem 7 dias de garantia incondicional. Caso desista da sua participação dentro desse período, receberá a devolução integral do valor investido.",
+    answer: "SIM! Você tem 7 dias de garantia antes do evento acontecer. Caso desista da sua participação dentro desse período, receberá a devolução integral do valor investido.",
   },
   {
     question: "Posso deixar para me inscrever depois?",
@@ -280,7 +280,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="bg-background text-foreground">
+    <main className="bg-background text-foreground overflow-x-hidden">
       <div className="fixed inset-x-0 top-0 z-50 border-b border-red-700/60 bg-red-600 py-3 text-white shadow-[0_10px_30px_-18px_var(--shadow-deep)]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-x-6 gap-y-3 px-4 text-center md:flex-row">
           <div className="flex items-center gap-3 animate-pulse">
@@ -327,7 +327,7 @@ function Index() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.08, ease: "easeOut" }}
-              className="mt-4 max-w-4xl font-display text-xl leading-tight whitespace-nowrap text-hero-foreground/90 md:text-2xl lg:text-3xl"
+              className="mt-4 max-w-4xl font-display text-[1.1rem] sm:text-xl leading-tight whitespace-nowrap text-hero-foreground/90 md:text-2xl lg:text-3xl"
             >
               SEU MAIOR RIVAL ESTÁ NA SUA MENTE.
             </motion.h2>
@@ -394,7 +394,7 @@ function Index() {
               </Button>
               <div className="mt-4 flex items-center justify-center gap-2 text-sm text-hero-muted/70">
                 <ShieldCheck className="h-4 w-4" />
-                Garantia incondicional de 7 dias
+                Garantia de 7 dias Antes do Evento
               </div>
             </motion.div>
           </div>
@@ -725,7 +725,7 @@ function Index() {
                   "Vivência terapêutica em grupo",
                   "Reflexões e exercícios de autopercepção",
                   "Grupo VIP no WhatsApp exclusivo para participantes",
-                  "Garantia incondicional de 7 dias",
+                  "Garantia de 7 dias Antes do Evento",
                 ].map((benefit) => (
                   <li key={benefit} className="flex items-start gap-4 text-base font-medium leading-7 text-slate-700">
                     <span className="mt-1.5 grid h-[18px] w-[18px] shrink-0 place-items-center rounded-full border-2 border-slate-700 text-slate-700">
@@ -757,7 +757,7 @@ function Index() {
                     "Vivência terapêutica em grupo",
                     "Reflexões e exercícios de autopercepção",
                     "Grupo VIP no WhatsApp exclusivo para participantes",
-                    "Garantia incondicional de 7 dias",
+                    "Garantia de 7 dias Antes do Evento",
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-start gap-4 text-base font-medium leading-7 text-slate-400">
                       <span className="mt-1.5 grid h-[18px] w-[18px] shrink-0 place-items-center rounded-full border-2 border-slate-300 text-slate-300">
