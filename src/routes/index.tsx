@@ -739,7 +739,7 @@ function Index() {
               </ul>
 
               <Button asChild variant="cta" size="xl" className="mt-14 w-full rounded-xl bg-[#10172A] text-sm font-bold text-amber-100 hover:bg-[#10172A]/90 md:text-base">
-                <a href="https://pay.hotmart.com/N106524344D" target="_blank" rel="noopener noreferrer">QUERO GARANTIR MEU INGRESSO</a>
+                <a href="https://pay.hotmart.com/N106524344D?checkoutMode=10" target="_blank" rel="noopener noreferrer">QUERO GARANTIR MEU INGRESSO</a>
               </Button>
             </motion.article>
 
