@@ -73,10 +73,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workshop A Chave Proibida" },
-      { name: "description", content: "Landing page do Workshop A Chave Proibida com Léia Dornelas." },
+      { title: "Workshop: Barba Azul" },
+      { name: "description", content: "Landing page do Workshop: Barba Azul com Léia Dornelas." },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Workshop A Chave Proibida" },
+      { property: "og:site_name", content: "Workshop: Barba Azul" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [

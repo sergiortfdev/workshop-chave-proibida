@@ -178,11 +178,30 @@ function TestimonialsSection() {
   ]);
 
   const testimonials = [
-    { name: "Viviane Batista", text: "A Léia é uma profissional ímpar. Através das vivências e da Terapia Craniossacral, consegui me reconectar com a minha essência e curar dores que eu carregava há anos. Foi um divisor de águas na minha vida!" },
-    { name: "Ilda Costantin", text: "Participar do Workshop foi uma experiência transformadora. O ambiente é acolhedor, e a condução da Léia nos traz uma paz inexplicável. É um mergulho profundo no autoconhecimento." },
-    { name: "Lais Latorraca", text: "Recomendo de olhos fechados. A Terapia de Resposta Espiritual me ajudou a destravar padrões repetitivos e a enxergar minha jornada com mais clareza e propósito." },
-    { name: "Eliane Ribeiro", text: "A vivência terapêutica com a Léia é maravilhosa! Senti uma mudança imediata no meu campo energético e físico. Ela tem um dom especial para cuidar do nosso Ser." },
-    { name: "Nubia Martins", text: "Profissionalismo, sensibilidade e muito amor no que faz. O espaço AIA Saúde Integral é um refúgio. Sou muito grata por toda a evolução que alcancei com os tratamentos." },
+    { name: "Ilda Constantin", text: `Fui acolhida com muito carinho por uma profissional que há anos cuida das nossas dores. Super indico a Léia...não só na condução do Taro, mas também nas outras especialidades como Medicina Chinesa, TRE e outras tantas habilidades que ela desenvolveu. Muito estudiosa...sempre trazendo novidades para nós...só gratidão pela Léia em minha vida.`, image: "/assets/Ilda.png" },
+    { name: "Nubia Martins", text: `Minha experiência foi ótima! Estava intoxicada com alterações no estômago, fígado, pâncreas e intestinos. Passei pelo tratamento com a Léia, MTC, TRE, homeopatia Quântica... Foi uma etapa muito importante para minha saúde!` },
+    { name: "Elza Carrijo", text: `Gente linda...bom dia, boa tarde e/ou boa noite! Se amem e não se permitam deixar de ir na Dra. Léia Dornelas! Ela é tudo de bom! Fiz TRE e, logo após, brevíssimo tratamento com acupuntura e chás caseiros que fizeram a diferença! As experiências por mim vividas são indescritíveis! Me sinto saudável, plena, divina! Obrigada querida Léia Dornelas! Gratidão! 💜` },
+    { name: "Viviane Batista", text: `Minha experiência foi fantástica, a Léia é muito profissional e me senti segura com tanto conhecimento, além do acompanhamento que é muito amoroso, eu entrei angustiada e saí em paz, cheia de certezas! Muita gratidão Léia por existir 🌻` },
+    { name: "Lais Latorraca", text: `A Léia é um anjo na terra. Super atenciosa em todos os seus atendimentos. Eu comecei com a constelação familiar, fiz o meu mapa astral, depois a revolução solar no meu aniversário e não vamos parar por ai. As terapias com a Léia me ajudaram a entender o porque de certos padrões em minha vida e agora a Léia esta me ajudando a encontrar meu próprio caminho. Recomendo a Léia com toda confiança em seu trabalho 🙌🏻❤️`, image: "/assets/LaisLatorraca.png" },
+    { name: "Carolina Orejuela", text: `Tive uma experiência maravilhosa com o Instituto AIA e Léia Dornelas 💫. Fiz atendimentos online desde a Colômbia, como o mapa natal e também a TRE, e só tenho a agradecer. O cuidado, a sensibilidade e a clareza da Léia fazem toda a diferença. Me senti muito acolhida e cada sessão trouxe insights profundos e transformadores. Recomendo de coração a todos que buscam autoconhecimento e bem-estar.`, image: "/assets/CarolinaOrejuela.png" },
+    { name: "Gabriela Ferraz", text: `Experiência maravilhosa. Desde o acolhimento à ambientação, me senti sendo preparada para entrar em processos pessoais a cada passo. Léia foi extremamente explicativa e carinhosa, um convite mesmo para olhar com amor às questões da alma.` },
+    { name: "Luciara Cristina Borges Da Silva", text: `Procurei Léia Dornelas com muita dor no pulso, tendinite em tratamento há quase 2 meses sem melhoras significativas, mas a acupuntura e suas orientações fizeram total diferença na minha recuperação!\nEste ano tive a oportunidade de participar de sua mentoria "O Código da Nave" e foi fantástico! Foi meu primeiro contato com meu Mapa Natal e tive outra visão sobre a vida e minha Missão!\nGratidão, Léia!❤️❤️❤️`, image: "/assets/LuciaraCristina.png" },
+    { name: "Eliane Ribeiro", text: `A leitura do tarô astrológico com a Léia deu muita clareza quando ao momento em que estou vivenciando. Ela em seus atendimentos supera as expectativas e entrega com muito amor, qualidade e sabedoria aquilo que se propõe a fazer.\nAgradeço de coração pelo direcionamento❤️🙌🏻🌹` },
+    { name: "Portal Rede Araxá Em Ação", text: `Experiência única de me conectar comigo mesma e conhecer melhor meus desafios para poder vencê-los.\nFui presenteada com muitas curas.` },
+    { name: "Sedese Uberlândia- Odete Dan", text: `Experiência maravilhosa. Léia desenvolve seu trabalho com excelência e os resultados que recebi foram maravilhosos. Super indico.`, image: "/assets/OdeteDan.png" },
+    { name: "Gi Barbosa", text: `Fiz um tratamento longo e maravilhoso com a Leia. Foi uma experiência muito boa, com autoconhecimento. Me ajudou muito a entender quem sou e a melhorar a forma de viver todos os dias!` },
+    { name: "Solange Duarte Da Costa Nogueira", text: `Conheço o trabalho da Léia desde antes da pandemia,penso que sou das primeiras pacientes dela, no período da pandemia não entrei em uma crise depressiva graças à seu trabalho, com ela já consegui emagrecer e o mais importante caso foi qdo extraí um dente molar e o dentista afetou meu nervoso trigêmeo o que me causou grandes dores e através de sua experiência e conhecimento hoje não sinto mais dor ,somente uma sensibilidade no local e sabemos que isso é muito raro, enfim,após tratar-me com Léia sou outr pessoa!`, image: "/assets/SolangeDuarte.png" },
+    { name: "Beth Perez", text: `Excelente profissional, eu indico. Já fiz várias terapias, agora vou fazer meu mapa astral.`, image: "/assets/BethPerez.png" },
+    { name: "Vaneide Correa Dornellas", text: `Atendimento excepcional. O local de atendimento é lindo, acolhedor e aconchegante junto à natureza. Lugar cheiroso e limpo. E a Leia é sorridente, alegre e super comprometida com o tratamento individualizado. Super recomendo.`, image: "/assets/VanideCorrea.png" },
+    { name: "Julieta D'augero", text: `Minha experiência foi maravilhosa. Adorei às sessões com Leia. Ela me ajudo muito a melhorar muitos aspectos da minha vida 🩵 Altamente responsável. Eu recomendo a ela ✨`, image: "/assets/JulietaD'Augero.png" },
+    { name: "Lara Costa Guerra", text: `É uma profissional de excelência ela faz um trabalho que cura sua alma e coloca significado em sua vida,tudo melhora pois você muda sua frequência, para uma mais alta e harmonica! Super indico!`, image: "/assets/LaraCosta.png" },
+    { name: "Claudia Rosa Manso", text: `Excelente profissional! Sempre muito assertiva no diagnóstico e na condução do tratamento.`, image: "/assets/ClaudiaRosa.png" },
+    { name: "Graziela De Paula Silva", text: `Através da escuta, condução e orientações de Léia Dornelas encontrei respostas, prumo e direção. GRATIDÃO Léia por tudo, por tanto e por sempre... ABRAÇOS`, image: "/assets/Graziela.png" },
+    { name: "Luciana Muniz", text: `Uma experiência transformadora. Apoio incrível para a jornada de autoconhecimento, com muito profissionalismo e sabedoria! Gratidão, Leia`, image: "/assets/LucianaMuniz.png" },
+    { name: "Reníria Af", text: `Sempre experiências transformadoras, uma profissional muito capacitada e com muita empatia. Exala conhecimento e cura 🙏💖` },
+    { name: "Valdevina Rodrigues", text: `Excelente profissional, trabalha com muita seriedade, comprometida, dedicada, muito competente, recomendo demais 😍💖🙏`, image: "/assets/ValdevinaRodrigues.png" },
+    { name: "Sonia Barbosa", text: `Eu recomendo. Foi muito bom para mim e minha família. Perfeito o acolhimento e os tratamentos.` },
+    { name: "Clori Fernandes Maciel", text: `Valdiléia me tratou com muito amor e profissionalismo. Tenho recomendado para muitas pessoas.`, image: "/assets/CloriFernandes.png" },
   ];
 
   return (
@@ -199,21 +218,50 @@ function TestimonialsSection() {
              <div key={i} className="min-w-0 flex-[0_0_85%] pl-6 md:flex-[0_0_45%] lg:flex-[0_0_35%]">
                <div className="flex h-full flex-col justify-between rounded-3xl border border-border/70 bg-white p-8 shadow-sm transition-transform hover:-translate-y-1">
                  <div>
-                   <div className="mb-4 text-4xl text-accent-blue opacity-40">"</div>
-                   <p className="text-lg italic leading-relaxed text-muted-foreground md:text-xl">
+                   <div className="mb-3 flex items-center justify-between">
+                     <div className="text-4xl text-accent-blue opacity-40 leading-none">"</div>
+                     <div className="flex items-center gap-1 text-yellow-400">
+                       {[1, 2, 3, 4, 5].map((star) => (
+                         <svg key={star} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+                           <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
+                         </svg>
+                       ))}
+                     </div>
+                   </div>
+                   <p className="whitespace-pre-line text-lg italic leading-relaxed text-muted-foreground md:text-xl">
                      {t.text}
                    </p>
                  </div>
                  <div className="mt-8 flex items-center gap-4">
-                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-hero text-hero-foreground font-display text-xl">
-                     {t.name.charAt(0)}
-                   </div>
+                   {t.image ? (
+                     <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border/50">
+                       <img src={t.image} alt={`Foto de ${t.name}`} className="h-full w-full object-cover" loading="lazy" />
+                     </div>
+                   ) : (
+                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-hero text-hero-foreground font-display text-xl">
+                       {t.name.charAt(0)}
+                     </div>
+                   )}
                    <p className="font-bold text-foreground text-lg">{t.name}</p>
                  </div>
                </div>
              </div>
           ))}
         </div>
+      </div>
+
+      <div className="mt-12 flex justify-center">
+        <Button asChild variant="outline" size="sm" className="gap-2 rounded-full border-border/50 bg-white shadow-sm text-muted-foreground hover:text-foreground">
+          <a href="https://www.google.com/maps/place/AIA+Sa%C3%BAde+Integral+-+L%C3%A9ia+Dornelas/@-18.9325068,-48.2692629,17z/data=!4m8!3m7!1s0x94a4444df0687de7:0x47bfde9b005ed171!8m2!3d-18.9325068!4d-48.2692629!9m1!1b1!16s%2Fg%2F11c3ss_0_q?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="h-4 w-4">
+              <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+              <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+              <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+              <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+            </svg>
+            Ver avaliações completas no Google
+          </a>
+        </Button>
       </div>
     </FadeInSection>
   );
@@ -222,13 +270,13 @@ function TestimonialsSection() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Workshop A Chave Proibida | Léia Dornelas" },
+      { title: "Workshop: Barba Azul | Léia Dornelas" },
       {
         name: "description",
         content:
-          "Participe do Workshop A Chave Proibida e aprenda a reconhecer sabotadores internos, sinais de alerta e padrões emocionais que comprometem suas escolhas.",
+          "Participe do Workshop: Barba Azul e aprenda a reconhecer sabotadores internos, sinais de alerta e padrões emocionais que comprometem suas escolhas.",
       },
-      { property: "og:title", content: "Workshop A Chave Proibida | Léia Dornelas" },
+      { property: "og:title", content: "Workshop: Barba Azul | Léia Dornelas" },
       {
         property: "og:description",
         content:
@@ -238,7 +286,7 @@ export const Route = createFileRoute("/")({
       { property: "og:url", content: "/" },
       { property: "og:image", content: bannerWorkshop.url },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Workshop A Chave Proibida | Léia Dornelas" },
+      { name: "twitter:title", content: "Workshop: Barba Azul | Léia Dornelas" },
       {
         name: "twitter:description",
         content:
@@ -253,7 +301,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Event',
-          name: 'Workshop: A Chave Proibida',
+          name: 'Workshop: Barba Azul',
           description:
             'Imersão online e ao vivo conduzida por Léia Dornelas para reconhecer sabotadores internos, fortalecer a percepção e transformar escolhas.',
           eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
