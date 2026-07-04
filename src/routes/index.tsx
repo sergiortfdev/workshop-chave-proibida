@@ -314,7 +314,7 @@ export const Route = createFileRoute("/")({
           },
           offers: {
             '@type': 'Offer',
-            price: '37.00',
+            price: '47.00',
             priceCurrency: 'BRL',
             availability: 'https://schema.org/LimitedAvailability',
             url: '/',
@@ -333,7 +333,7 @@ function Index() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-x-6 gap-y-3 px-4 text-center md:flex-row">
           <div className="flex items-center gap-3 animate-pulse">
             <AlertTriangle className="h-5 w-5 shrink-0" />
-            <span className="text-base font-bold md:text-lg">Garanta seu ingresso por apenas R$ 37</span>
+            <span className="text-base font-bold md:text-lg">Garanta seu ingresso por apenas R$ 47</span>
           </div>
           <Button asChild size="sm" className="bg-background text-foreground hover:bg-background/90 font-bold px-6 shadow-sm">
             <a href="#oferta">Garantir com desconto</a>
@@ -763,10 +763,10 @@ function Index() {
               </div>
               
               <div className="flex flex-col items-center text-center">
-                <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-500">Lote 0 - Membros AIA</p>
+                <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-500">Lote 1</p>
                 <span className="mt-2 text-sm font-medium text-slate-400 line-through">De R$ 77,00</span>
-                <span className="mt-1 font-display text-[4rem] font-bold leading-none text-[#10172A] md:text-7xl">R$ 37,00</span>
-                <span className="mt-3 text-sm font-bold text-slate-500">ou 5x de R$ 8,19</span>
+                <span className="mt-1 font-display text-[4rem] font-bold leading-none text-[#10172A] md:text-7xl">R$ 47,00</span>
+                <span className="mt-3 text-sm font-bold text-slate-500">6x R$ 8,82</span>
               </div>
               
               <ul className="mt-12 space-y-5">
