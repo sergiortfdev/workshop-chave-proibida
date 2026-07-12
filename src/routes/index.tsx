@@ -764,7 +764,7 @@ function Index() {
               
               <div className="flex flex-col items-center text-center">
                 <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-500">Lote 1</p>
-                <span className="mt-2 text-sm font-medium text-slate-400 line-through">De R$ 77,00</span>
+                <span className="mt-2 text-sm font-medium text-slate-400 line-through">De R$ 177,00</span>
                 <span className="mt-1 font-display text-[4rem] font-bold leading-none text-[#10172A] md:text-7xl">R$ 47,00</span>
                 <span className="mt-3 text-sm font-bold text-slate-500">6x R$ 8,82</span>
               </div>
@@ -799,7 +799,7 @@ function Index() {
               <div className="pointer-events-none opacity-25 grayscale filter">
                 <div className="flex flex-col items-center text-center">
                   <p className="text-xl font-bold uppercase tracking-[0.1em] text-slate-400">Próximo Lote</p>
-                  <span className="mt-8 font-display text-[3.5rem] font-bold leading-none text-slate-300 md:text-6xl">R$ 77,00</span>
+                  <span className="mt-8 font-display text-[3.5rem] font-bold leading-none text-slate-300 md:text-6xl">R$ 177,00</span>
                 </div>
                 <ul className="mt-12 space-y-5">
                   {[
