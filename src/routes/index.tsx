@@ -461,6 +461,63 @@ function Index() {
         </div>
       </section>
 
+      <FadeInSection className="section-tinted overflow-hidden">
+        <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-28">
+          <SectionHeader
+            title="Essa imersão é para mulheres que..."
+          />
+
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={{
+              hidden: { opacity: 0 },
+              show: {
+                opacity: 1,
+                transition: { staggerChildren: 0.12 },
+              },
+            }}
+            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2"
+          >
+            {audienceItems.map((item, index) => {
+              const isLastItem = index === audienceItems.length - 1 && audienceItems.length % 2 !== 0;
+              return (
+                <motion.div
+                  key={item}
+                  variants={{
+                    hidden: { opacity: 0, y: 24 },
+                    show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+                  }}
+                  whileHover={{ y: -6, transition: { duration: 0.2, ease: "easeOut" } }}
+                  className={`flex h-full items-start gap-5 rounded-3xl border border-accent-blue/14 bg-card/85 p-8 shadow-[0_22px_55px_-45px_var(--shadow-soft)] backdrop-blur-sm ${
+                    isLastItem ? "md:col-span-2 md:mx-auto md:w-full md:max-w-2xl" : ""
+                  }`}
+                >
+                  <span className="mt-1 grid h-10 w-10 shrink-0 place-items-center rounded-full bg-accent-blue/12 text-accent-blue">
+                    <Check className="h-5 w-5" />
+                  </span>
+                  <p className="text-lg leading-8 text-foreground/88">{item}</p>
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        </div>
+      </FadeInSection>
+
+      {/* Floating Key between sections */}
+      <div className="pointer-events-none relative z-10 -my-10 flex justify-center md:-my-16">
+        <motion.img
+          src={keyAsset.url}
+          alt="Chave antiga 3D"
+          initial={{ rotate: -25, scale: 0.8, opacity: 0 }}
+          whileInView={{ rotate: 12, scale: 1, opacity: 0.9 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+          className="h-32 w-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)] md:h-48"
+        />
+      </div>
+
       <FadeInSection className="section-light">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-24">
           {/* Título centralizado */}
@@ -523,63 +580,6 @@ function Index() {
               E quando essa história é vivenciada em grupo, ela deixa de ser apenas uma história. Ela se transforma em espelho e revelação.
             </p>
           </div>
-        </div>
-      </FadeInSection>
-
-      {/* Floating Key between sections */}
-      <div className="pointer-events-none relative z-10 -my-10 flex justify-center md:-my-16">
-        <motion.img
-          src={keyAsset.url}
-          alt="Chave antiga 3D"
-          initial={{ rotate: -25, scale: 0.8, opacity: 0 }}
-          whileInView={{ rotate: 12, scale: 1, opacity: 0.9 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 1.2, ease: "easeOut" }}
-          className="h-32 w-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)] md:h-48"
-        />
-      </div>
-
-      <FadeInSection className="section-tinted overflow-hidden">
-        <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-28">
-          <SectionHeader
-            title="Essa imersão é para mulheres que..."
-          />
-
-          <motion.div
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.1 }}
-            variants={{
-              hidden: { opacity: 0 },
-              show: {
-                opacity: 1,
-                transition: { staggerChildren: 0.12 },
-              },
-            }}
-            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2"
-          >
-            {audienceItems.map((item, index) => {
-              const isLastItem = index === audienceItems.length - 1 && audienceItems.length % 2 !== 0;
-              return (
-                <motion.div
-                  key={item}
-                  variants={{
-                    hidden: { opacity: 0, y: 24 },
-                    show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
-                  }}
-                  whileHover={{ y: -6, transition: { duration: 0.2, ease: "easeOut" } }}
-                  className={`flex h-full items-start gap-5 rounded-3xl border border-accent-blue/14 bg-card/85 p-8 shadow-[0_22px_55px_-45px_var(--shadow-soft)] backdrop-blur-sm ${
-                    isLastItem ? "md:col-span-2 md:mx-auto md:w-full md:max-w-2xl" : ""
-                  }`}
-                >
-                  <span className="mt-1 grid h-10 w-10 shrink-0 place-items-center rounded-full bg-accent-blue/12 text-accent-blue">
-                    <Check className="h-5 w-5" />
-                  </span>
-                  <p className="text-lg leading-8 text-foreground/88">{item}</p>
-                </motion.div>
-              );
-            })}
-          </motion.div>
         </div>
       </FadeInSection>
 
